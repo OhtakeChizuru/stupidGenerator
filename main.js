@@ -27,8 +27,9 @@ function result() {
   newStory = newStory.replace(":insertz:", zItem);
 
   if(customName.value !== '') {
-    let name = customName.value;
-    let newStory = newStory.replace("Bob", name);
+    let name1 = customName.value;
+    console.log(name1);
+    newStory = newStory.replace("Bob", name1);
 
   }
 
